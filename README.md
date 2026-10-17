@@ -1,5 +1,7 @@
 # GRS.jl_paper
 
+[![C. elegans](https://img.shields.io/badge/C.%20elegans%20EMS-Pluto%20notebook-green)](https://drostlab.github.io/GRS.jl_paper/celegans_ems.html)
+
 This repository contains scripts and simulation schedule specifications that can be used to reproduce the results and figures presented in:
 
 > "A generative model to simulate the dynamics of gene regulatory systems at cellular scale"
@@ -19,5 +21,6 @@ Note that the individual artifacts were generated with different software enviro
 | 06 differentiation / grid | `v1.11.8` | `v0.3.2-6-gdaf682b` |
 | 07 random differentiation | `v1.11.7` | `v0.3.2-6-gdaf682b` |
 | 08 benchmark | `v1.12.4` | [nifets/GeneRegulatorySystems.jl](https://github.com/nifets/GeneRegulatorySystems.jl)\#`d8a5a364` |
+| celegans | `v1.12.4` | [nifets/GeneRegulatorySystems.jl](https://github.com/nifets/GeneRegulatorySystems.jl)\#`3515e6c9` |
 
 (The benchmark was based on a development branch containing optimizations that have not been merged into the upstream GeneRegulatorySystems.jl repository yet.)
