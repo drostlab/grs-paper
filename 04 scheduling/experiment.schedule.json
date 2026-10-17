@@ -1,0 +1,20 @@
+{
+    "branch": true,
+    "step": [
+        {
+            "into": "-repressilator",
+            "<": "repressilator.schedule.json"
+        },
+        {
+            "into": "-repressilator-entrained",
+            "<": "repressilator-entrained.schedule.json"
+        },
+        {
+            "into": "-repressilator-state-intervention",
+            "<": "repressilator-state-intervention.schedule.json"
+        }
+    ],
+    "_julia_version": "v1.10.4",
+    "_version": "v0.3.1-28-gfba2261",
+    "seed": "seed"
+}

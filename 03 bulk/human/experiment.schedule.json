@@ -1,0 +1,9 @@
+{
+    "_julia_version": "v1.12.6",
+    "_version": "v0.5.0",
+    "rootseed": "seed",
+    "step": {
+        "<": "deseq2.schedule.json",
+        "seed": "${rootseed}-deseq2"
+    }
+}

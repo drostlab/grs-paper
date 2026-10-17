@@ -1,0 +1,16 @@
+{
+    "branch": true,
+    "step": [
+        {
+            "into": "-bursts",
+            "<": "bursts.schedule.json"
+        },
+        {
+            "into": "-fano",
+            "<": "fano.schedule.json"
+        }
+    ],
+    "_julia_version": "v1.10.4",
+    "_version": "v0.3.1-52-g5b16f40-dirty",
+    "seed": "seed"
+}
