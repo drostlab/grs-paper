@@ -1,6 +1,6 @@
 # GRS.jl_paper
 
-[![C. elegans](https://img.shields.io/badge/C.%20elegans%20EMS-Pluto%20notebook-green)](https://drostlab.github.io/GRS.jl_paper/celegans_ems.html)
+[![C. elegans](https://img.shields.io/badge/C.%20elegans%20EMS-Pluto%20notebook-green)](https://drostlab.github.io/grs-paper/celegans_ems.html)
 
 This repository contains scripts and simulation schedule specifications that can be used to reproduce the results and figures presented in:
 
