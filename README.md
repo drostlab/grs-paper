@@ -1,4 +1,4 @@
-# GRS.jl_paper
+# grs-paper
 
 [![C. elegans](https://img.shields.io/badge/C.%20elegans%20EMS-Pluto%20notebook-green)](https://drostlab.github.io/grs-paper/celegans_ems.html)
 
