@@ -390,13 +390,7 @@
                         "unique": false
                     }
                 ],
-                "method": {
-                    "dt": 10,
-                    "epsilon": null,
-                    "name": "HybridTau",
-                    "nc": 3,
-                    "policy": "CriticalBlend"
-                },
+                "method": "RSSACR",
                 "reactions": [
                     {
                         "from": [
@@ -486,12 +480,6 @@
                             "elt-2.sirna"
                         ]
                     }
-                ],
-                "species": [
-                    "active",
-                    "premrnas",
-                    "mrnas",
-                    "proteins"
                 ]
             }
         },

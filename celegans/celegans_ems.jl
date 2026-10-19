@@ -593,10 +593,10 @@ circuit_spec = let
 		                    pairs(get(gene_specific_rates, name, (;)))...),
 		(kind => regulation(inputs(name, kind)) for kind in (:activation, :repression) if !isempty(inputs(name, kind)))...,
 	)
-	method = Dict(:name => "HybridTau", :policy => "CriticalBlend", :nc => 3, :epsilon => nothing, :dt => 10)
+	#method = Dict(:name => "HybridTau", :policy => "CriticalBlend", :nc => 3, :epsilon => nothing, :dt => 10)
+	method = "RSSACR"
 	Dict(Symbol("{regulation/v1}") => Dict(
 		:method => method,
-		:species => ["active", "premrnas", "mrnas", "proteins"],
 		:genes => gene.(collect(keys(gene_colours))),
 		:reactions => signalling,
 	))
@@ -697,7 +697,7 @@ end
 # ╠═ebfbb616-18d1-4039-a193-b8c0c6383f5d
 # ╟─4a0c8c51-0ac6-4bcb-8681-8b37aec85978
 # ╟─693d942c-6270-4ec3-a519-b832600a8f86
-# ╟─16292fb4-24f9-4041-949b-b4c58c70065b
+# ╠═16292fb4-24f9-4041-949b-b4c58c70065b
 # ╠═6b607d66-4b66-42b4-b398-c881dfe33681
 # ╠═4a343dc4-4aa4-4321-bcba-fe8c14de97f4
 # ╟─cab2d623-8e0d-415f-8192-7e14b22249c7
